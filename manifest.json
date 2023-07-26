@@ -1,5 +1,5 @@
 {
-    "name" : "uni_app",
+    "name" : "佳购",
     "appid" : "__UNI__8741C36",
     "description" : "",
     "versionName" : "1.0.0",
@@ -52,7 +52,8 @@
     "mp-weixin" : {
         "appid" : "wx315b0412a70c08a9",
         "setting" : {
-            "urlCheck" : false
+            "urlCheck" : false,
+            "checkSiteMap" : false
         },
         "usingComponents" : true
     },

@@ -1,0 +1,23 @@
+{
+  "name": "uni-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HJa-Studying/uni-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HJa-Studying/uni-shop/issues"
+  },
+  "homepage": "https://github.com/HJa-Studying/uni-shop#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.10.20"
+  }
+}

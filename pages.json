@@ -37,11 +37,87 @@
             
         }
     ],
-	"globalStyle": {
+	"subPackages": [
+        {
+            "root":"subPackages",
+            "pages":[{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "商品详情",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :  
+                {
+                     "onReachBottomDistance": 100,
+                    // "navigationBarTitleText":"分类",
+                    "enablePullDownRefresh": true
+                }
+                
+                }
+                ,{
+                    "path" : "shop/shop",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                
+                ,{
+                    "path" : "shoucang_list/shoucang_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "收藏的商品",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "guanzhu_list/guanzhu_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "关注的店铺",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "cart_sub/cart_sub",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "search/search",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+        }
+	    
+	],
+    "globalStyle": {
 		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "优购",
+		"navigationBarTitleText": "佳购",
 		"navigationBarBackgroundColor": "#C00000",
-		"backgroundColor": "#FFFFFF"
+		"backgroundColor": "#FFFFFF",
+        "usingComponents": {
+            "van-icon":"wxcomponents/vant/icon/index",
+            "van-stepper":"wxcomponents/vant/stepper/index"
+        }
 	},
 	"uniIdRouter": {},
     "condition" : { //模式配置，仅开发期间生效
